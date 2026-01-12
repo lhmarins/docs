@@ -1,35 +1,37 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "almond",
+  "name": "Marcomms",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#FACBC7",
+    "light": "#FFFFEE",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/alpha-logo.svg",
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Marketing 101",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "marketing101/brandingkit",
+              "Request forms",
+              "Current templates",
+              "Evergreen event/conference kit",
+              "How to guides"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Alpha Course",
             "pages": [
               "essentials/settings",
               "essentials/navigation"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "AYS",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,12 +40,29 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "SLC",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
+          },
+          {
+            "group": "Thought Leadership",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }, 
+          {
+            "group": "Made For This"
+          }, 
+          {
+            "group": "Stories"
+          },
+          {
+            "group": "Donor Dev"
           }
         ]
       },
@@ -71,12 +90,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Home",
+          "href": "/",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
+          "anchor": "What?",
           "href": "https://mintlify.com/blog",
           "icon": "newspaper"
         }
@@ -84,8 +103,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/alpha-logo.svg",
+    "dark": "/logo/alpha-logo.svg"
   },
   "navbar": {
     "links": [
