@@ -11,13 +11,13 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Marcomms",
         "groups": [
           {
             "group": "Marketing 101",
             "pages": [
               "marketing101/brandingkit",
-              "Request forms",
+              "marketing101/requestforms",
               "Current templates",
               "Evergreen event/conference kit",
               "How to guides"
