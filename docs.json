@@ -1,87 +1,44 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
-  "name": "Marcomms",
+  "theme": "maple",
+  "name": "IT Documentation",
   "colors": {
-    "primary": "#FACBC7",
+    "primary": "#154A38",
     "light": "#FFFFEE",
     "dark": "#15803D"
   },
-  "favicon": "/logo/alpha-logo.svg",
+  "favicon": "/logo/alpha-light-bulb.png",
   "navigation": {
     "tabs": [
       {
-        "tab": "Marcomms",
+        "tab": "Gemini for Workspace",
         "groups": [
           {
-            "group": "Marketing 101",
+            "group": "Fundamentals",
             "pages": [
-              "marketing101/brandingkit",
-              "marketing101/requestforms",
-              "Current templates",
-              "Evergreen event/conference kit",
-              "How to guides"
+              "fundamentals/intro",
+              "fundamentals/4-step-framework"
             ]
           },
           {
-            "group": "Alpha Course",
+            "group": "Apps & Tools",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "apps/gmail",
+              "apps/drive",
+              "apps/docs",
+              "apps/meet"
             ]
           },
           {
-            "group": "AYS",
+            "group": "Pro Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "pro-features/thinking-mode"
             ]
           },
           {
-            "group": "SLC",
+            "group": "Advanced Automation",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "Thought Leadership",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }, 
-          {
-            "group": "Made For This"
-          }, 
-          {
-            "group": "Stories"
-          },
-          {
-            "group": "Donor Dev"
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "automation/workspace-studio"
             ]
           }
         ]
@@ -103,8 +60,8 @@
     }
   },
   "logo": {
-    "light": "/logo/alpha-logo.svg",
-    "dark": "/logo/alpha-logo.svg"
+    "light": "/logo/alpha-light-bulb.png",
+    "dark": "/logo/alpha-light-bulb.png"
   },
   "navbar": {
     "links": [
