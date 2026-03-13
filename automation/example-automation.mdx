@@ -1,0 +1,61 @@
+---
+title: "Example: Meeting Briefing with Workspace Studio"
+description: "Automate the creation of meeting briefings using Workspace Studio."
+---
+
+Let's walkthrough the process of creating a custom workflow using Workspace Studio.
+
+<Steps>
+  <Step title="Create new workflow in Workspace Studio">
+    Navigate to [Workspace Studio](https://studio.workspace.google.com/u/0/) and click on "New flow" button on the left.
+    <Frame>
+  <img src="/images/newflow-screenshot.png" alt="Descriptive alt text" />
+</Frame>
+  </Step>
+  <Step title="Choose a starter">
+   Select "Based on a meeting" from the list of starters.
+   Set the trigger to run for "Every meeting" and select how long before each meeting you want the workflow to run.
+    <Frame>
+  <img src="/images/flow-starter.png" alt="Descriptive alt text" />
+</Frame> 
+<Frame>
+  <img src="/images/starter-settings.png" alt="Descriptive alt text" />
+</Frame>
+  </Step>
+  <Step title="Add 'Check if' step">
+  Use this step to stop this workflow from running for meetings that you don't need a briefing for (i.e. daily prayer meetings or our staff call)
+  <Frame>
+  <img src="/images/step-checkif.png" alt="Descriptive alt text" />
+</Frame>
+  </Step>
+  <Step title="Choose 'Ask Gemini' as next step">
+    Within the 'Ask Gemini' step, you can provide a prompt to Gemini to generate a briefing based on the meeting details.
+   <Note>Where it says [insert variable], you'll need to select the 'all guest email addresses' option from the variable dropdown menu.</Note>
+    **Prompt for Ask Gemini step:**
+    ```text
+    Review the upcoming meeting with [insert variable]. 
+    
+    Search my Gmail, chat, and Google Drive for the most recent communications, notes, and active documents related to these individuals.
+
+Provide a 2-sentence recap of our last interaction, and highlight any critical context I need to know before joining.​
+```
+<Frame>
+
+  <img src="/images/ask-gemini-step.png" alt="Descriptive alt text" />
+</Frame>
+<Tip>Turn off web search for this step to ensure that Gemini only uses your company's data.</Tip>
+
+  </Step>
+  <Step title="Choose 'Notify me in chat' as next step">
+  Select "Notify me in chat" as the next step. 
+  
+  Select variables and choose "Step 3: Content created by Gemini"
+
+   <Frame>
+  <img src="/images/notifyinchat.png" alt="Descriptive alt text" />
+</Frame>
+  </Step>
+   <Step title="Turn on the workflow">
+  Finally turn on the workflow and start receiving your meeting briefings! 🎉
+  </Step>
+</Steps>

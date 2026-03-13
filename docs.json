@@ -17,7 +17,8 @@
             "group": "Fundamentals",
             "pages": [
               "fundamentals/intro",
-              "fundamentals/4-step-framework"
+              "fundamentals/4-step-framework",
+              "fundamentals/workflow-worksheet"
             ]
           },
           {
@@ -38,7 +39,9 @@
           {
             "group": "Advanced Automation",
             "pages": [
-              "automation/workspace-studio"
+              "automation/workspace-studio",
+              "automation/example-automation",
+              "automation/example-torespond-automation"
             ]
           }
         ]
@@ -78,15 +81,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
