@@ -23,18 +23,11 @@
           },
           {
             "group": "Apps & Tools",
-            "pages": [
-              "apps/gmail",
-              "apps/drive",
-              "apps/docs",
-              "apps/meet"
-            ]
+            "pages": ["apps/gmail", "apps/drive", "apps/docs", "apps/meet"]
           },
           {
             "group": "Pro Features",
-            "pages": [
-              "pro-features/thinking-mode"
-            ]
+            "pages": ["pro-features/thinking-mode"]
           },
           {
             "group": "Advanced Automation",
@@ -53,11 +46,6 @@
           "anchor": "Home",
           "href": "/",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "What?",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -70,14 +58,9 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://calendar.google.com/appointments/schedules/AcZssZ0ZP7rQnT9aVbMqJ3hQER25w3Vb55I-uOZNnER1Ye8U_XzuFjUIcSb3bGeRP8npC_0-hhsmRgOK"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
