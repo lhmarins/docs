@@ -5,26 +5,11 @@ description: "Advanced automation using Workspace Studio for custom workflows."
 
 # Advanced Automation: Workspace Studio
 
-Workspace Studio allows power users to build custom AI-driven workflows that connect multiple Workspace apps together without extensive coding.
+Workspace Studio allows you to create automations within Google Workspace. You can create automations to categorize emails that you need to respond to and have it draft a response in your voice. You can also create an automation to receive a meeting briefing before all your meetings where Gemini will search your Gmail, chat and drive for any context related to that meeting.
 
-## Custom Email Labeling
-
-You can set up rules instructing Gemini to automatically categorize incoming emails based on content, sentiment, or specific project keywords, rather than just relying on simple filters.
-
-1. Navigate to the Workspace Studio interface.
-2. Create a new workflow triggered by "New Email".
-3. Use a Gemini prompt action to evaluate the email: *"Determine if this email is a high-priority customer escalation, a routine vendor update, or an internal informational memo."*
-4. Add a subsequent action to apply the appropriate Gmail Label based on Gemini's categorization.
-
-## Automated Morning Briefs
-
-Start your day with a synthesized summary of what happened overnight.
-
-1. Create a scheduled workflow in Workspace Studio (e.g., "Run at 8:00 AM daily").
-2. Connect it to your Inbox and your Calendar.
-3. Provide the prompt: *"Summarize the top 3 most important unread emails from my manager or direct reports, and list my meetings for today highlighting any back-to-back blocks."*
-4. Output the result into a new Google Doc or have it emailed to yourself automatically.
+The next two tabs will go through a couple of example workflows.
 
 <Note>
-**Extensibility**: Workspace Studio is highly customizable. You can adjust prompts and triggers to fit the unique needs of your team.
+  **Extensibility**: Workspace Studio is highly customizable. You can adjust
+  prompts and triggers to fit the unique needs of your team.
 </Note>
