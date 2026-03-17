@@ -1,4 +1,54 @@
 ---
 title: "Example: Label and draft a responses to emails"
-description: "This workflow will use Gemini to categoirze emails that need to be responded and then create a draft response in your voice."
+description: "This workflow will use Gemini to categorize emails that need to be responded and then create a draft response in your voice."
 ---
+
+<Steps>
+  <Step title="Create new workflow">
+    Navigate to [Workspace Studio](https://studio.workspace.google.com/u/0/) and
+    click on "New flow" button on the left.
+    <Frame>
+      <img src="/images/newflow-screenshot.png" alt="Descriptive alt text" />
+    </Frame>
+  </Step>
+  <Step title="Choose a starter">
+    Select "When I get an email" from the list of starters.
+
+    Keep "all emails" selected
+    <Frame>
+      <img src="/images/whenigetemail.png" alt="Descriptive alt text" />
+    </Frame>
+
+  </Step>
+  <Step title="Select 'Add labels' as next step">
+   <Frame>
+      <img src="/images/addlabelsstep.png" alt="Descriptive alt text" />
+    </Frame>
+    Once selected, you'll see an option to turn on AI-powered labels. These labels will allow you to smartly categorize emails using AI.
+
+    For now we'll just turn on "To Respond".
+    <Note>You may want to click edit button to adjust the criteria for what should be labeled as a "To Respond" email.</Note>
+     <Frame>
+      <img src="/images/ailabeldescription.png" alt="Descriptive alt text" />
+    </Frame>
+
+  </Step>
+  <Step title="Add a 'check if' step">
+  Adding this step will filter out any emails that haven't had the "To Respond" label applied.
+  <Frame>
+      <img src="/images/checkiflabels.png" alt="Descriptive alt text" />
+    </Frame>
+  </Step>
+  <Step title="Ask Gemini">
+  Use this step to draft a response for you "To Respond" email. 
+   <Frame>
+      <img src="/images/emailaskgemini.png" alt="Descriptive alt text" />
+    </Frame>
+  </Step>
+  <Step title="Draft a reply">
+  Use the variables to select the email from step 1 as the email to reply to. And use the variable to set the message the content created by Gemini.
+<Warning>
+Always check the draft for changes that need to made. AI can make mistakes and reference information that is not applicable. 
+</Warning>
+  </Step>
+</Steps>
